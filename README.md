@@ -3,4 +3,4 @@ This project is a mobile application for android that analyzes the eye opening v
 
 Aperture values were found using ML Kit libraries.
 
-![alt text](drvrftg.jpg)
+![alt text](drvrftg.png)
