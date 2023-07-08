@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <com.otaliastudios.cameraview.CameraView
+            android:id="@+id/camera_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:cameraGridColor="#3F51B5">
+
+        </com.otaliastudios.cameraview.CameraView>
+
+    </FrameLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="61dp"
+        android:layout_marginTop="675dp">
+
+        <TextView
+            android:id="@+id/rightEyeText"
+            android:layout_width="212dp"
+            android:layout_height="match_parent"
+            android:background="#009688"
+            android:paddingStart="75dp"
+            android:paddingTop="20dp"
+            android:text="Sağ Göz"
+            android:textColor="#000000"
+            tools:ignore="HardcodedText,RtlSymmetry" />
+
+        <TextView
+            android:id="@+id/leftEyeText"
+            android:layout_width="199dp"
+            android:layout_height="match_parent"
+            android:background="#009688"
+            android:paddingStart="75dp"
+            android:paddingTop="20dp"
+            android:text="Sol Göz"
+            android:textColor="#000000"
+            tools:ignore="RtlSymmetry" />
+    </LinearLayout>
+
+</FrameLayout>

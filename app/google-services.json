@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "272702846311",
+    "project_id": "yorgunlukanalizi",
+    "storage_bucket": "yorgunlukanalizi-master.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:272702846311:android:73d68876c252a3c41c2bc2",
+        "android_client_info": {
+          "package_name": "com.yorgunlukanalizi"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBssxFqN9qt9bdy6LVjqmk941F6ENmPNRk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
